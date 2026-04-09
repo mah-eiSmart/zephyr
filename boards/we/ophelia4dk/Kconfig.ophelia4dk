@@ -1,0 +1,6 @@
+# Copyright (c) 2026 Würth Elektronik eiSos GmbH & Co. KG
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_OPHELIA4DK
+	select SOC_NRF54L15_CPUAPP if BOARD_OPHELIA4DK_NRF54L15_CPUAPP
+	select SOC_NRF54L15_CPUFLPR if BOARD_OPHELIA4DK_NRF54L15_CPUFLPR
